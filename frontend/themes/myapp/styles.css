@@ -1,0 +1,23 @@
+@import url('lumo-css-framework/all-classes.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+.cust-padd * {
+    align-content: flex-start;
+    padding: 1px;
+    margin: 1px;
+}
+.cust-folder {
+    border-color: #2b908f;
+    border-bottom: 10px;
+    flex: content;
+    align-items: center;
+    width: auto;
+}
+
+.cust-folder vaadin-text-field {
+    width: 350px;
+}
+
+.cust-folder vaadin-button {
+    width: 100px;
+}
